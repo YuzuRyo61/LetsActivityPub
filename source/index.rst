@@ -15,3 +15,4 @@ ActivityPubの仕組みを学び、実際に通信した実装記録をこのド
    :caption: Contents:
 
    getting-started
+   webfinger
