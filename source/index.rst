@@ -16,3 +16,4 @@ ActivityPubの仕組みを学び、実際に通信した実装記録をこのド
 
    getting-started
    webfinger
+   person
