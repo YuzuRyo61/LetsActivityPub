@@ -25,32 +25,44 @@
 ```
 
 - type
+  
   これはPersonもしくはServiceを指定する。
   Serviceを指定した場合、Mastodonではbotアカウントとして処理される。
 
 - id
+  
   以上のJSON形式を返すためのURL。
 
 - preferredUsername
+  
   ユーザーIDを代入する。半角英数字とアンダーバーを使用する（TwitterのユーザーIDと同じような形）。
   例：```letsAP_testuser```
 
 - inbox
+  
   外部からのデータを処理するInboxのURL。Inboxについては後に説明する。
 
 - publicKey
+  
   - id
+  
     PublicKeyを識別するためのID。URL形式で処理する。
+  
   - owner
+  
     idと同じURLにする。（publicKey内のidではない）
+  
   - publicKeyPem
+  
     ユーザーを識別するための共有鍵を代入する。RSA形式で2048桁以上を推奨。
     共有鍵と秘密鍵のペアを作成しておく。これはInboxへ通信する際に必要である。
 
 - url
+  
   ユーザーのプロフィールを一般のブラウザで表示できるURLを代入する。
 
 - manuallyApprovesFollowers
+  
   フォローの許可・拒否を手動で行っているアカウントであるかを示す。
 
 ## 必要に応じて追加可能なもの
@@ -76,20 +88,29 @@
 ```
 
 - outbox
+  
   ユーザーの投稿を読み取るためのURL。
 
 - name
+  
   ユーザーの表示名。
 
 - summary
+  
   ユーザーのプロフィール。HTML使用可。
 
 - icon
+  
   - type
+  
     Image固定。
+  
   - url
+  
     該当ユーザーのアイコン画像へリンクする直URL。
+  
   - sensitive
+  
     閲覧注意属性かどうかを指定。ただし、iconで使用する場合はfalseで良い。
 
 - image
