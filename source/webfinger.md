@@ -51,7 +51,7 @@ URLのパラメーター、resourceに```acct:```から始まる形式が入る�
 
 ## 検証
 
-[WebFingerの公式サイト](https://webfinger.net/)には簡易的な検証ツールがある。アクセスすると右上にフォームがあるので
+[WebFingerの公式サイト( https://webfinger.net/ )](https://webfinger.net/)には簡易的な検証ツールがある。アクセスすると右上にフォームがあるので
 
 ```username@example.com```のような形式を入力して右の検索ボタンを押すと検証される。
 
